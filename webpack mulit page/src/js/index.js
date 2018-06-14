@@ -3,5 +3,9 @@
  */
 import './../css/index.css'
 require(['./common.js'],(commmon)=> {
-  commmon.initIndex()
+  commmon.initIndex();
+  $(function () {
+    console.log('jquery in index')
+
+  })
 });
